@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create new project</title>
+</head>
+<body>
+  <h1>建立新專案</h1>
+<pre><code class="language-bash"># cargo new &lt;project-name&gt;
+cargo new rust-hello-world
+
+# 建立 binary program 的專案
+cargo new rust-bin-project --bin
+
+# 建立 library 的專案
+cargo new rust-lib-project --lib
+</code></pre>
+<h1>目錄結構</h1>
+<p>含有 <strong>Cargo.toml</strong> 跟 <strong>src</strong></p>
+<ul>
+<li>
+<p>Cargo.toml: <a href="https://doc.rust-lang.org/cargo/appendix/glossary.html#manifest">Manifest</a> 包含所有在Cargo要進行編譯時的metadata</p>
+</li>
+<li>
+<p>src/main.rs: 程式的進入點</p>
+</li>
+</ul>
+<h1>編譯</h1>
+<pre><code class="language-bash"># 在專案目錄
+cargo build
+</code></pre>
+<h1>執行</h1>
+<pre><code class="language-bash"># 在專案目錄
+cargo run
+</code></pre>
+<h1>release</h1>
+<pre><code class="language-bash"># 在專案目錄
+cargo build --release
+
+# 編譯好的binary會在target/release中
+</code></pre>
+
+</body>
+</html>

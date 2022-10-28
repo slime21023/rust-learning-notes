@@ -1,0 +1,18 @@
+<h1>Functions</h1>
+<ul>
+<li>具返回值</li>
+</ul>
+<pre><code class="language-rust">fn exclaim(input: String) -&gt; String {
+    let mut output = input.to_uppercase();
+    output.push('!');
+    output // 返回 output
+}
+</code></pre>
+<ul>
+<li>無返回值</li>
+</ul>
+<pre><code class="language-rust">fn print_excited(input: String) {
+    let output = exclaim(input);
+    println!(&quot;{}&quot;, output);
+}
+</code></pre>

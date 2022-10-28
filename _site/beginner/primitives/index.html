@@ -1,0 +1,78 @@
+<h1>Primitives 原始型別</h1>
+<ul>
+<li><strong>Scalar Types</strong>
+<ul>
+<li>signed integer</li>
+<li>unsigned integer</li>
+<li>float</li>
+<li>char</li>
+<li>bool,</li>
+<li>unit type(empty tuple)</li>
+</ul>
+</li>
+<li><strong>Compound Types</strong>
+<ul>
+<li>array</li>
+<li>tuple</li>
+</ul>
+</li>
+</ul>
+<h1>Scalar Types</h1>
+<pre><code class="language-rust">fn main() {
+    let default_int = 1; // i32
+    let default_float = 3.0; // f64
+
+    let i: i64 = 100;
+    let i = 100i64;
+
+    let ui: u32 = 10; // unsigned integer
+    let logical: bool = true;
+    
+    // char 存放單個unicode字符，占用 4 btyes (32bits)
+    let ch: char = 'A';
+
+}
+</code></pre>
+<h1>Compound Type</h1>
+<pre><code class="language-rust">fn main() {
+    let array: [u32; 3] = [1, 2, 3];
+    let first_array_item = array[0];
+
+    let a = [3; 5];
+    // let a = [3, 3, 3, 3, 3];
+
+    let tuple: (bool, u16, u8) = (true, 2, 3);
+    let first_tuple_item = tuple.0;
+}
+</code></pre>
+<h1>Integer Literals in Rust</h1>
+<table>
+<thead>
+<tr>
+<th>Number literals</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Decimal</td>
+<td>98_222</td>
+</tr>
+<tr>
+<td>Hex</td>
+<td>0xff</td>
+</tr>
+<tr>
+<td>Octal</td>
+<td>0o77</td>
+</tr>
+<tr>
+<td>Binary</td>
+<td>0b1111_0000</td>
+</tr>
+<tr>
+<td>Byte (u8 only)</td>
+<td>b'A'</td>
+</tr>
+</tbody>
+</table>
