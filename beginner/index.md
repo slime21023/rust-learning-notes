@@ -10,5 +10,8 @@ title: Rust for beginner
 - [Expression](/beginner/expression)
 - [Control Flow](/beginner/control_flow)
 - [Functions](/beginner/functions)
+- [Struct](/beginner/struct)
 - [Ownership](/beginner/ownership)
+- [References and Borrowing](/beginner/references_and_borrowing)
+- [lifetime](/beginner/lifetime)
 - [Array、Vector、Slice](/beginner/array_vector_slice)
