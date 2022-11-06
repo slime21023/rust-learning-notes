@@ -13,5 +13,6 @@ title: Rust for beginner
 - [Struct](/beginner/struct)
 - [Ownership](/beginner/ownership)
 - [References and Borrowing](/beginner/references_and_borrowing)
-- [lifetime](/beginner/lifetime)
+- [Lifetime](/beginner/lifetime)
 - [Array、Vector、Slice](/beginner/array_vector_slice)
+- [String](/beginner/string)
